@@ -123,32 +123,32 @@ cuda_examples/fast:
 	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/build
 .PHONY : cuda_examples/fast
 
-hello.o: hello.cu.o
+checkDimension.o: checkDimension.cu.o
 
-.PHONY : hello.o
+.PHONY : checkDimension.o
 
 # target to build an object file
-hello.cu.o:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/hello.cu.o
-.PHONY : hello.cu.o
+checkDimension.cu.o:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/checkDimension.cu.o
+.PHONY : checkDimension.cu.o
 
-hello.i: hello.cu.i
+checkDimension.i: checkDimension.cu.i
 
-.PHONY : hello.i
+.PHONY : checkDimension.i
 
 # target to preprocess a source file
-hello.cu.i:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/hello.cu.i
-.PHONY : hello.cu.i
+checkDimension.cu.i:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/checkDimension.cu.i
+.PHONY : checkDimension.cu.i
 
-hello.s: hello.cu.s
+checkDimension.s: checkDimension.cu.s
 
-.PHONY : hello.s
+.PHONY : checkDimension.s
 
 # target to generate assembly for a file
-hello.cu.s:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/hello.cu.s
-.PHONY : hello.cu.s
+checkDimension.cu.s:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/checkDimension.cu.s
+.PHONY : checkDimension.cu.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cuda_examples"
 	@echo "... edit_cache"
-	@echo "... hello.o"
-	@echo "... hello.i"
-	@echo "... hello.s"
+	@echo "... checkDimension.o"
+	@echo "... checkDimension.i"
+	@echo "... checkDimension.s"
 .PHONY : help
 
 
