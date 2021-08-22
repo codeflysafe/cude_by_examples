@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cuda_examples.dir/checkDimension.cu.o"
+  "CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.o"
   "CMakeFiles/cuda_examples.dir/cmake_device_link.o"
   "cuda_examples.pdb"
   "cuda_examples"

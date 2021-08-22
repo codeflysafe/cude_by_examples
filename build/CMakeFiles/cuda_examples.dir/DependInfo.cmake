@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/checkDimension.cu" "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/cuda_examples.dir/checkDimension.cu.o"
+  "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/sumArraysOnDevice.cu" "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 

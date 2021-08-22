@@ -123,32 +123,32 @@ cuda_examples/fast:
 	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/build
 .PHONY : cuda_examples/fast
 
-checkDimension.o: checkDimension.cu.o
+sumArraysOnDevice.o: sumArraysOnDevice.cu.o
 
-.PHONY : checkDimension.o
+.PHONY : sumArraysOnDevice.o
 
 # target to build an object file
-checkDimension.cu.o:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/checkDimension.cu.o
-.PHONY : checkDimension.cu.o
+sumArraysOnDevice.cu.o:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.o
+.PHONY : sumArraysOnDevice.cu.o
 
-checkDimension.i: checkDimension.cu.i
+sumArraysOnDevice.i: sumArraysOnDevice.cu.i
 
-.PHONY : checkDimension.i
+.PHONY : sumArraysOnDevice.i
 
 # target to preprocess a source file
-checkDimension.cu.i:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/checkDimension.cu.i
-.PHONY : checkDimension.cu.i
+sumArraysOnDevice.cu.i:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.i
+.PHONY : sumArraysOnDevice.cu.i
 
-checkDimension.s: checkDimension.cu.s
+sumArraysOnDevice.s: sumArraysOnDevice.cu.s
 
-.PHONY : checkDimension.s
+.PHONY : sumArraysOnDevice.s
 
 # target to generate assembly for a file
-checkDimension.cu.s:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/checkDimension.cu.s
-.PHONY : checkDimension.cu.s
+sumArraysOnDevice.cu.s:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.s
+.PHONY : sumArraysOnDevice.cu.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cuda_examples"
 	@echo "... edit_cache"
-	@echo "... checkDimension.o"
-	@echo "... checkDimension.i"
-	@echo "... checkDimension.s"
+	@echo "... sumArraysOnDevice.o"
+	@echo "... sumArraysOnDevice.i"
+	@echo "... sumArraysOnDevice.s"
 .PHONY : help
 
 

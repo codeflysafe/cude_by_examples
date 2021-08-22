@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/checkDimension.cu
-cuda_runtime.h
+/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/sumArraysOnDevice.cu
+stdlib.h
 -
 stdio.h
+-
+time.h
 -
 
