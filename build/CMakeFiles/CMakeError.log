@@ -1,0 +1,114 @@
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-10.0/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+No such file or directory
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" failed.
+Compiler: /usr/local/cuda-10.0/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/x86_64-linux-gnu-gcc-7 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: /home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24fc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24fc4.dir/build.make CMakeFiles/cmTC_24fc4.dir/build
+make[1]: 进入目录“/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/CMakeTmp”
+Building CUDA object CMakeFiles/cmTC_24fc4.dir/main.cu.o
+/usr/local/cuda-10.0/bin/nvcc     -x cu -c /home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_24fc4.dir/main.cu.o
+Linking CUDA device code CMakeFiles/cmTC_24fc4.dir/cmake_device_link.o
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24fc4.dir/dlink.txt --verbose=1
+/usr/local/cuda-10.0/bin/nvcc       -shared -dlink CMakeFiles/cmTC_24fc4.dir/main.cu.o -o CMakeFiles/cmTC_24fc4.dir/cmake_device_link.o 
+Linking CUDA executable cmTC_24fc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24fc4.dir/link.txt --verbose=1
+""    CMakeFiles/cmTC_24fc4.dir/main.cu.o CMakeFiles/cmTC_24fc4.dir/cmake_device_link.o -o cmTC_24fc4 
+Error running link command: No such file or directory
+CMakeFiles/cmTC_24fc4.dir/build.make:116: recipe for target 'cmTC_24fc4' failed
+make[1]: *** [cmTC_24fc4] Error 2
+make[1]: 离开目录“/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_24fc4/fast' failed
+make: *** [cmTC_24fc4/fast] Error 2
+
+

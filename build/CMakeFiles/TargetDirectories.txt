@@ -1,0 +1,3 @@
+/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/rebuild_cache.dir
+/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/cuda_examples.dir
+/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles/edit_cache.dir
