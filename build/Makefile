@@ -123,32 +123,32 @@ cuda_examples/fast:
 	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/build
 .PHONY : cuda_examples/fast
 
-sumArraysOnDevice.o: sumArraysOnDevice.cu.o
+chapter_2/sumMatrixOnGPU-2D-grid-2D-block.o: chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
 
-.PHONY : sumArraysOnDevice.o
+.PHONY : chapter_2/sumMatrixOnGPU-2D-grid-2D-block.o
 
 # target to build an object file
-sumArraysOnDevice.cu.o:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.o
-.PHONY : sumArraysOnDevice.cu.o
+chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
+.PHONY : chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
 
-sumArraysOnDevice.i: sumArraysOnDevice.cu.i
+chapter_2/sumMatrixOnGPU-2D-grid-2D-block.i: chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.i
 
-.PHONY : sumArraysOnDevice.i
+.PHONY : chapter_2/sumMatrixOnGPU-2D-grid-2D-block.i
 
 # target to preprocess a source file
-sumArraysOnDevice.cu.i:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.i
-.PHONY : sumArraysOnDevice.cu.i
+chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.i:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.i
+.PHONY : chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.i
 
-sumArraysOnDevice.s: sumArraysOnDevice.cu.s
+chapter_2/sumMatrixOnGPU-2D-grid-2D-block.s: chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.s
 
-.PHONY : sumArraysOnDevice.s
+.PHONY : chapter_2/sumMatrixOnGPU-2D-grid-2D-block.s
 
 # target to generate assembly for a file
-sumArraysOnDevice.cu.s:
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.s
-.PHONY : sumArraysOnDevice.cu.s
+chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.s:
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.s
+.PHONY : chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cuda_examples"
 	@echo "... edit_cache"
-	@echo "... sumArraysOnDevice.o"
-	@echo "... sumArraysOnDevice.i"
-	@echo "... sumArraysOnDevice.s"
+	@echo "... chapter_2/sumMatrixOnGPU-2D-grid-2D-block.o"
+	@echo "... chapter_2/sumMatrixOnGPU-2D-grid-2D-block.i"
+	@echo "... chapter_2/sumMatrixOnGPU-2D-grid-2D-block.s"
 .PHONY : help
 
 

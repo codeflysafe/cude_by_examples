@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build",
-  "command": "/usr/local/cuda-10.0/bin/nvcc    -w   -std=c++14 -x cu -dc /home/hgzx/sjhuang/cuda_projects/cuda_by_examples/sumArraysOnDevice.cu -o CMakeFiles/cuda_examples.dir/sumArraysOnDevice.cu.o",
-  "file": "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/sumArraysOnDevice.cu"
+  "command": "/usr/local/cuda-10.0/bin/nvcc    -w   -std=c++14 -x cu -dc /home/hgzx/sjhuang/cuda_projects/cuda_by_examples/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu -o CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o",
+  "file": "/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu"
 }
 ]

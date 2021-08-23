@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10.2)
 project(cuda_examples LANGUAGES CUDA C)
 set(CMAKE_CUDA_FLAGS "-w")
 set(CMAKE_CUDA_STANDARD 14)
-add_executable(cuda_examples sumArraysOnDevice.cu)
+add_executable(cuda_examples ${PROJECT_SOURCE_DIR}/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu)
 set_target_properties(
         cuda_examples
         PROPERTIES
