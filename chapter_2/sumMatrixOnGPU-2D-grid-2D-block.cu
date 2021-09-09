@@ -60,7 +60,7 @@ void checkRef(float *h_Ref, float *d_Ref, const int nx, const int ny){
 
 int main(){
 
-    int dev = 0;
+    int dev = 1;
     cudaSetDevice(dev);
     // set size of data
     int nx = 1<<14;

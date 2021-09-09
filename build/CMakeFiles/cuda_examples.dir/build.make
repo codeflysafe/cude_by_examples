@@ -57,38 +57,38 @@ include CMakeFiles/cuda_examples.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cuda_examples.dir/flags.make
 
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o: CMakeFiles/cuda_examples.dir/flags.make
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o: ../chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o"
-	/usr/local/cuda-10.0/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -dc /home/hgzx/sjhuang/cuda_projects/cuda_by_examples/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu -o CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o: CMakeFiles/cuda_examples.dir/flags.make
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o: ../chapter_3/simpleDivergence.cu
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o"
+	/usr/local/cuda-10.0/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -dc /home/hgzx/sjhuang/cuda_projects/cuda_by_examples/chapter_3/simpleDivergence.cu -o CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o
 
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.i"
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.i"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.s"
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.requires:
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.requires:
 
-.PHONY : CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.requires
+.PHONY : CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.requires
 
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.provides: CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.requires
-	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.provides.build
-.PHONY : CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.provides
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.provides: CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.requires
+	$(MAKE) -f CMakeFiles/cuda_examples.dir/build.make CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.provides.build
+.PHONY : CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.provides
 
-CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.provides.build: CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
+CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.provides.build: CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o
 
 
 # Object files for target cuda_examples
 cuda_examples_OBJECTS = \
-"CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o"
+"CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o"
 
 # External object files for target cuda_examples
 cuda_examples_EXTERNAL_OBJECTS =
 
-CMakeFiles/cuda_examples.dir/cmake_device_link.o: CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
+CMakeFiles/cuda_examples.dir/cmake_device_link.o: CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o
 CMakeFiles/cuda_examples.dir/cmake_device_link.o: CMakeFiles/cuda_examples.dir/build.make
 CMakeFiles/cuda_examples.dir/cmake_device_link.o: CMakeFiles/cuda_examples.dir/dlink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hgzx/sjhuang/cuda_projects/cuda_by_examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CUDA device code CMakeFiles/cuda_examples.dir/cmake_device_link.o"
@@ -101,12 +101,12 @@ CMakeFiles/cuda_examples.dir/build: CMakeFiles/cuda_examples.dir/cmake_device_li
 
 # Object files for target cuda_examples
 cuda_examples_OBJECTS = \
-"CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o"
+"CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o"
 
 # External object files for target cuda_examples
 cuda_examples_EXTERNAL_OBJECTS =
 
-cuda_examples: CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o
+cuda_examples: CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o
 cuda_examples: CMakeFiles/cuda_examples.dir/build.make
 cuda_examples: CMakeFiles/cuda_examples.dir/cmake_device_link.o
 cuda_examples: CMakeFiles/cuda_examples.dir/link.txt
@@ -118,7 +118,7 @@ CMakeFiles/cuda_examples.dir/build: cuda_examples
 
 .PHONY : CMakeFiles/cuda_examples.dir/build
 
-CMakeFiles/cuda_examples.dir/requires: CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o.requires
+CMakeFiles/cuda_examples.dir/requires: CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o.requires
 
 .PHONY : CMakeFiles/cuda_examples.dir/requires
 

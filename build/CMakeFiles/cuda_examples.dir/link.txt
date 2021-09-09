@@ -1,1 +1,1 @@
-/usr/bin/g++   CMakeFiles/cuda_examples.dir/chapter_2/sumMatrixOnGPU-2D-grid-2D-block.cu.o CMakeFiles/cuda_examples.dir/cmake_device_link.o -o cuda_examples  -L"/usr/local/cuda-10.0/lib64/stubs" -L"/usr/local/cuda-10.0/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+/usr/bin/g++   CMakeFiles/cuda_examples.dir/chapter_3/simpleDivergence.cu.o CMakeFiles/cuda_examples.dir/cmake_device_link.o -o cuda_examples  -L"/usr/local/cuda-10.0/lib64/stubs" -L"/usr/local/cuda-10.0/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
